@@ -1,0 +1,272 @@
+/* this section used for all 3 pages*/
+
+header {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 10px 0px;
+  width: 100%;
+}
+
+.mainHeading {
+  font-size: 22px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+  background-color: #4aaaa5;
+  padding: 25px 20px 15px 10px;
+  margin: 0px 0px 0px 80px;
+}
+
+nav {
+  color: #242121;
+  padding: 0px;
+  margin: 20px 5px 20px 5px;
+}
+
+.aboutButton,
+.contactButton,
+.portfolioButton {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #A09D9D;
+  padding: 0px 10px 0px 10px;
+  margin-right: 2px;
+}
+
+.aboutButton:hover,
+.contactButton:hover,
+.portfolioButton:hover {
+  background-color: #B5FAF5;
+}
+
+.aboutButton,
+.portfolioButton {
+  border-right: 2px solid #A09D9D;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #777777;
+  background-image: url("../images/stucco/stucco.png")
+}
+
+.mainSection {
+  background-color: white;
+  border: 1px solid #dddddd;
+  margin: 30px 10px 40px 0px;
+  padding: 20px 20px 20px 20px;
+}
+
+.mainSectionHead {
+  color: #4aaaa5;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #dddddd;
+  margin-bottom: 20px;
+}
+
+.asideSection {
+  background-color: white;
+  border: 1px solid #dddddd;
+  margin: 30px 10px 30px 10px;
+  padding: 20px;
+}
+
+.asideSectionHead {
+  color: #4aaaa5;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #dddddd;
+  margin-bottom: 20px;
+}
+
+footer {
+  clear: both;
+  background-color: #666666;
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  padding: 35px;
+  border-top: 8px solid #4aaaa5;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* 
+/* used in index page */
+
+.indexImg {
+  padding: 0px 20px 10px 0px;
+  float: left;
+}
+
+*/
+/*used in portfolio page*/
+
+.mainSectionRow1,
+.mainSectionRow2,
+.mainSectionRow3 {
+  width: 540px;
+  height: 180px;
+  background-color: white;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 20px 10px 20px;
+}
+
+.hangmanProject,
+.rpgGameProject,
+.triviaGameProject,
+.rutgersInfoWidgetProject,
+.rockPaperScissorsProject {
+  z-index: 2;
+  padding: 10px 10px 10px 10px;
+}
+
+.hangmanCaption,
+.rpgGameCaption,
+.triviaGameCaption,
+.rutgersInfoWidgetCaption,
+.rockPaperScissorsCaption {
+  color: whitesmoke;
+  background-color: #4aaaa5;
+  text-align: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  padding: 20px 25px 20px 25px;
+  width: 250px;
+  z-index: 3;
+  position: absolute;
+  top: 110px;
+  left: 25px;
+}
+
+
+/* used in contacts page*/
+
+.form-group {
+  padding: 0px 20px 0px 20px;
+}
+
+ ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 14px;
+  color: #A09F9F;
+}
+
+ ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 14px;
+  color: #A09F9F;
+}
+
+ :-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 14px;
+  color: #A09F9F;
+}
+
+ :-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 14px;
+  color: #A09F9F;
+}
+
+.submitButton {
+  color: whitesmoke;
+  background-color: #4aaaa5;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #dddddd;
+}
+
+
+/* 
+/* MEDIA TAGS */
+
+@media screen and (max-width: 980px) {
+  nav {
+    padding: 0px;
+    margin: 20px 0px 20px 0px;
+  }
+  .aboutButton,
+  .contactButton,
+  .portfolioButton {
+    font-size: 16px;
+    padding: 0px 2px 0px 2px;
+    margin-right: 2px;
+  }
+  .asideSection {
+    margin: 30px 5px 30px 5px;
+    padding: 10px 0px 10px 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .aboutButton,
+  .contactButton,
+  .portfolioButton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mainSection {
+    margin: auto;
+    padding: auto;
+  }
+  .asideSection {
+    margin: auto;
+    padding: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+  header {
+    position: static;
+    width: 100%;
+  }
+  nav {
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .aboutButton,
+  .contactButton,
+  .portfolioButton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mainSection {
+    margin: auto;
+    padding: auto;
+  }
+  .asideSection {
+    margin: auto;
+    padding: auto;
+  }
+  footer {
+    font-size: 11px;
+    width: 100%;
+    padding: 20px;
+    border-top: 5px solid #4aaaa5;
+  }
+}
