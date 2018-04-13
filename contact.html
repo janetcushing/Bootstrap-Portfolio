@@ -15,6 +15,8 @@
         crossorigin="anonymous">
     <!-- Link to reset CSS stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <!-- Link to jQuery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 
@@ -54,18 +56,18 @@
                     <form>
                         <div class="form-group">
                             <label class="form-control-label" for="formGroupExampleInput">Name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                            <input type="text" class="form-control" id="nameInput" placeholder="Name">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
                         </div>
                         <div class="form-group">
                             <label for="comment">Message</label>
                             <textarea class="form-control" rows="5" id="comment"></textarea>
                         </div>
                         <div class="form-group">
-                            <button class="submitButton" type="submit" class="btn btn-primary">Submit</button>
+                            <button class="submitButton" type="submit" class="btn btn-primary" id=submit>Submit</button>
                     </form>
 
                 </section>
@@ -96,4 +98,6 @@
                 </div>
             </div>
         </div>
+
+        <script type="text/javascript " src="assets/js/contact.js "></script>
 </body>
